@@ -6,7 +6,7 @@
 
 # user is already defined
 host="$(hostname)"
-os="$(nixos-version)"
+os="nix"
 kernel="$(uname -sr)"
 uptime="$(uptime | awk -F, '{sub(".*up ",x,$1);print $1}' | sed -e 's/^[ \t]*//')"
 shell="$(basename "${SHELL}")"
@@ -93,7 +93,7 @@ sed 's/\\/\\\\/g' <<EOF
 ${c0}        xx    ${c1}+++  ++      
 ${c0}         xx    ${c1}++;++;      
 ${c0}     xxxxxxxxxxx${c1}++;    ${c0}x   
-${c0}         +++     ${c1};++  ${c0}xxx        ${lc}os: ${ic}nix${reset}
+${c0}         +++     ${c1};++  ${c0}xxx        ${lc}os: ${ic}${os}${reset}
 ${c0}        +;;       ${c1}++ ${c0}xxx         ${lc}up: ${ic}${uptime}${reset}
 ${c1}  ++++++++         ${c0}xxxxxxxx      ${lc}pk: ${ic}${packages}${reset}
 ${c0}     ;;+ xx       xxx            ${lc}sh: ${ic}${shell}${reset}
