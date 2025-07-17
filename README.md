@@ -9,5 +9,5 @@
 
 
 ## other info
-- the `ufetch` file is a modified version of (you guessed it) ufetch, with more minimal system info and better ascii art for nixos
+- the `ufetch` file is a modified version of (you guessed it) ufetch, with more minimal system info and better ascii art for nixos (shown in the screenshot above)
 - if you didn't guess, the wallpaper is `clouds-5.jpg`
