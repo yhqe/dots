@@ -9,5 +9,5 @@
 
 
 ## other info
-- the `ufetch` file is a modified version of (you guessed it) ufetch, with more minimal system info and better ascii art for nixos (shown in the screenshot above). you will need to edit it with your info because i was WAY too lazy to actually fetch the information cuz the way they did it was dumb
+- the `ufetch` file is a modified version of (you guessed it) [ufetch](https://gitlab.com/jschx/ufetch), with more minimal system info and better ascii art for nixos (shown in the screenshot above). i *highly* advise you dont use my version and just modify another version of [ufetch](https://gitlab.com/jschx/ufetch) for your system
 - if you didn't guess, the wallpaper is `clouds-5.jpg`
